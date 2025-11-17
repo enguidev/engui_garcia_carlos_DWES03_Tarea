@@ -1,0 +1,142 @@
+/* Para el body en la página de login */
+body {
+  /* Ancho máximo de 600 píxeles para centrar */
+  max-width: 600px;
+
+  /* Centrado con margen automático */
+  margin: 50px auto;
+
+  /* Separación interna de 20 píxeles */
+  padding: 20px;
+}
+
+/* Para el h1 (título principal) */
+h1 {
+  /* Tamaño de fuente grande: 60 píxeles */
+  font-size: 60px;
+
+  /* Color de fuente azul */
+  color: blue;
+
+  /* Texto centrado */
+  text-align: center;
+
+  /* Separación externa inferior de 30 píxeles */
+  margin-bottom: 30px;
+}
+
+/* Contenedor del formulario */
+#formulario {
+  /* Texto centrado */
+  text-align: center;
+
+  /* Centrado horizontal */
+  margin: 0 auto;
+
+  /* Ancho máximo de 400 píxeles */
+  max-width: 400px;
+
+  /* Fondo blanco para contraste */
+  background-color: white;
+
+  /* Separación interna de 30 píxeles */
+  padding: 30px;
+
+  /* borde de 2 píxeles, sólido y azul */
+  border: 2px solid blue;
+
+  /* Bordes redondeados de 10 píxeles */
+  border-radius: 10px;
+
+  /* Sombra suave */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Bloques de entrada (select + input) */
+.desplegable {
+  /* Separación vertical de 15 píxeles */
+  margin: 15px 0;
+}
+
+/* Etiquetas del formulario */
+label {
+  /* Color de fuente negro */
+  color: black;
+
+  /* Fuente en negrita */
+  font-weight: bold;
+
+  /* Tamaño de fuente de 18 píxeles */
+  font-size: 18px;
+
+  /* Display inline-block para poder dar ancho */
+  display: inline-block;
+
+  /* Ancho fijo de 100 píxeles */
+  width: 100px;
+
+  /* Texto alineado a la derecha */
+  text-align: right;
+
+  /* Separación externa de 10 píxeles a la derecha */
+  margin-right: 10px;
+}
+
+/* Select y input de contraseña */
+select,
+input[type="password"] {
+  /* Bordes redondeados de 10 píxeles */
+  border-radius: 10px;
+
+  /* Borde sólido negro de 2 píxeles */
+  border: 2px solid black;
+
+  /* Fuente en negrita */
+  font-weight: bold;
+
+  /* Ancho de 150 píxeles */
+  width: 150px;
+
+  /* Alto de 35 píxeles */
+  height: 35px;
+
+  /* Tamaño de fuente de 15 píxeles */
+  font-size: 15px;
+
+  /* Fondo azul claro */
+  background-color: aliceblue;
+
+  /* Texto centrado */
+  text-align: center;
+
+  /* Cursor de mano */
+  cursor: pointer;
+
+  /* Separación interna de 5 píxeles */
+  padding: 5px;
+
+  /* Eliminamos estilos internos que distorsionan el tamaño */
+  box-sizing: border-box;
+}
+
+/* Efecto al hacer focus en los campos */
+select:focus,
+input[type="password"]:focus {
+  /* Borde azul */
+  border: 2px solid blue;
+
+  /* Sombra azul */
+  box-shadow: 0 4px 8px rgba(0, 0, 255, 0.3);
+}
+
+/* Mensaje de error */
+#mensajeError {
+  /* Tamaño de fuente de 30 píxeles */
+  font-size: 30px;
+
+  /* Texto rojo oscuro */
+  color: #c62828;
+
+  /* Fuente en negrita */
+  font-weight: bold;
+}

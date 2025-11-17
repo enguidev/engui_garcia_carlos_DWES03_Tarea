@@ -1,0 +1,156 @@
+/* Para el body en todas las páginas */
+body {
+  /* Tipografía clara y estándar */
+  font-family: Arial, Helvetica, sans-serif;
+
+  /* Color de fondo azul claro */
+  background-color: aliceblue;
+
+  /* Quitamos márgenes y relleno por defecto */
+  margin: 0;
+  padding: 0;
+}
+
+/* Para centrar títulos y subtítulos */
+h2,
+h3 {
+  /* Texto centrado */
+  text-align: center;
+
+  /* Color azul */
+  color: blue;
+
+  /* Fuente en negrita */
+  font-weight: bold;
+
+  /* Separación inferior */
+  margin-bottom: 20px;
+}
+
+/* Tabla común (se usa en carrito.php y compra.php) */
+table {
+  /* Centrado y ancho */
+  margin: 30px auto;
+  width: 80%;
+
+  /* Bordes colapsados */
+  border-collapse: collapse;
+
+  /* Sombra y bordes redondeados */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+
+  /* Fondo blanco */
+  background-color: white;
+}
+
+/* Encabezados de tabla */
+table th {
+  /* Fondo azul */
+  background-color: blue;
+
+  /* Texto blanco */
+  color: white;
+
+  /* Tamaño y estilo de fuente */
+  font-size: 20px;
+  font-weight: bold;
+
+  /* Separación interna */
+  padding: 15px;
+
+  /* Texto centrado */
+  text-align: center;
+}
+
+/* Celdas de tabla */
+table td {
+  /* Tamaño de fuente */
+  font-size: 18px;
+
+  /* Separación interna */
+  padding: 12px;
+
+  /* Texto centrado */
+  text-align: center;
+
+  /* Línea separadora inferior */
+  border-bottom: 1px solid #ddd;
+}
+
+/* Efecto hover en filas de tabla */
+table tr:hover {
+  /* Fondo azul claro */
+  background-color: aliceblue;
+}
+
+/* Botones comunes (login, carrito y compra) */
+button {
+  /* Bordes redondeados */
+  border-radius: 10px;
+
+  /* Borde sólido negro */
+  border: 2px solid black;
+
+  /* Fuente en negrita */
+  font-weight: bold;
+
+  /* Tamaño de fuente */
+  font-size: 20px;
+
+  /* Fondo gris claro */
+  background-color: lightgrey;
+
+  /* Cursor de mano */
+  cursor: pointer;
+
+  /* Margen superior para separación */
+  margin: 20px auto;
+
+  /* Centrado */
+  display: block;
+
+  /* Tamaño fijo */
+  width: 180px;
+  height: 50px;
+
+  /* Texto centrado */
+  text-align: center;
+}
+
+/* Efecto hover en botones */
+button:hover {
+  /* Fondo azul */
+  background-color: blue;
+
+  /* Texto blanco */
+  color: white;
+
+  /* Borde azul oscuro */
+  border: 2px solid darkblue;
+
+  /* Sombra intensa */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* Para botones deshabilitados (cuando el carrito está vacío) */
+button:disabled {
+  /* Fondo gris */
+  background-color: grey;
+
+  /* Texto blanco */
+  color: white;
+
+  /* Borde gris oscuro */
+  border: 2px solid darkgrey;
+
+  /* Eliminamos sombra */
+  box-shadow: none;
+
+  /* Cursor de prohibido */
+  cursor: not-allowed;
+
+  /* Opacidad de 0,5 */
+  opacity: 0.5;
+}
