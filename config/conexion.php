@@ -5,10 +5,10 @@
 // Definimos las constantes para la conexión con la BDD
 define('DB_HOST', 'localhost'); // Host
 define('DB_NAME', 'tienda-tarea'); // Nombre de la BDD
-// define('DB_USER', 'alumno'); // Nombre de usuario
-define('DB_USER', 'root'); // Nombre de usuario
-// define('DB_PASSWORD', 'alumno'); // Password
-define('DB_PASSWORD', ''); // Password
+define('DB_USER', 'alumno'); // Nombre de usuario
+//define('DB_USER', 'root'); // Nombre de usuario
+define('DB_PASSWORD', 'alumno'); // Password
+// define('DB_PASSWORD', ''); // Password
 
 
 // Función para abrir la conexión
